@@ -1,0 +1,73 @@
+body {
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: auto;
+  overflow-y: auto;
+  background: linear-gradient(
+    315deg,
+    rgb(101, 0, 94) 3%,
+    rgb(60, 132, 206) 38%,
+    rgb(48, 238, 226) 68%,
+    rgb(255, 25, 25) 98%
+  );
+  background-image: linear-gradient(
+    315deg,
+    rgb(101, 0, 94) 3%,
+    rgb(60, 132, 206) 38%,
+    rgb(48, 238, 226) 68%,
+    rgb(255, 25, 25) 98%
+  );
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+
+  animation: gradient 15s ease infinite;
+  animation-duration: 15s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: gradient;
+  animation-timeline: auto;
+  /* animation-range-start: normal; */
+  /* animation-range-end: normal; */
+}
+.cards {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  flex-basis: 25%;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 3px 3px 15px 1px rgba(20, 20, 20, 0.45);
+  height: 28m0px;
+}
+a {
+  text-decoration: none;
+  color: orange;
+}
+.but1 {
+  width: 70px;
+  border: 1px solid #fff;
+  border-radius: 7px;
+}
+.vmes {
+  display: flex;
+  gap: 40px;
+  height: 30px;
+}
