@@ -71,6 +71,7 @@ a {
   background-color: #bdbbbb;
   transition: 0.6s;
   border: 1px solid #bdbbbb;
+  color: black;
 }
 .vmes {
   display: flex;
