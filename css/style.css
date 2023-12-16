@@ -63,12 +63,12 @@ a {
 }
 .but1 {
   width: 70px;
-  border: 1px solid #fff;
+  border: 1px solid #c7c4c4;
   border-radius: 7px;
   cursor: pointer;
 }
 .but1:hover {
-  background-color: #dcd7d7;
+  background-color: #bdbbbb;
   transition: 0, 7s;
 }
 .vmes {
